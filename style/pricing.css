@@ -1,8 +1,42 @@
-.introduc-section {
-    background-image: 
-        linear-gradient(90deg, rgba(214, 255, 255, 0.365), rgb(255, 255, 255), rgba(253, 255, 255, 0.365));
+.pricing__btn-wraper {
+    background-color: #E0E4FC;
 }
 
-.drop-msg__content {
-    background-color: #F0F2FE;
+.introd-section {
+    background-image: 
+        linear-gradient(90deg, rgba(190, 245, 245, 0.365), rgb(236, 248, 255), rgba(190, 245, 245, 0.365));
 }
+
+.questions__content {
+    background-image: 
+        linear-gradient(90deg, rgba(211, 248, 248, 0.365), rgb(236, 248, 255), rgba(190, 245, 245, 0.365));
+}
+
+.questions__first-item {
+    height: fit-content;
+}
+
+.questions__scnd-item {
+    height: fit-content;
+    
+}
+
+.questions__thrd-item {
+    height: fit-content;
+}
+
+.questions__frth-item {
+    height: fit-content;
+}
+
+.questions__scnd-title {
+    margin-right: 120px;
+} 
+
+.questions__thrd-title {
+    margin-right: 113px;
+} 
+
+.questions__frth-title {
+    margin-right: 155px;
+} 
