@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style/home.css" />
     <link rel="stylesheet" href="./style/product.css" />
     <link rel="stylesheet" href="./style/aboutUs.css" />
+    <link rel="stylesheet" href="./style/guide.css" />
     <link
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
@@ -14,37 +15,125 @@
     <title>Finsweet | Production</title>
   </head>
   <body>
-    <header class="flex justify-center pt-2">
+    <header class="flex justify-center pt-2 border-b-2 pb-4 pt-4">
       <div class="w-5/6 flex justify-between">
+        <h2 class="font-bold">Style Guide</h2>
         <h2 class="font-bold text-2xl">{finsweet</h2>
-        <nav class="w-fit flex gap-4">
-          <div class="mt-1 flex gap-4">
-            <a class="hover:underline hover:underline-offset-2" href="#"
-              >Home</a
-            >
-            <a class="hover:underline hover:underline-offset-2" href="#"
-              >Product</a
-            >
-            <a class="hover:underline hover:underline-offset-2" href="#"
-              >Pricing</a
-            >
-            <a class="hover:underline hover:underline-offset-2" href="#"
-              >About Us</a
-            >
-            <a class="hover:underline hover:underline-offset-2" href="#"
-              >Blog</a
-            >
-            <a class="hover:underline hover:underline-offset-2 mr-4" href="#"
-              >Contact</a
-            >
-          </div>
-          <button
-            class="bg-black hover:bg-blue-500 text-white text-xs hover:font-bold font-semibold rounded-lg py-2 px-4"
-          >
-            Free trial
-          </button>
-        </nav>
       </div>
     </header>
+
+    <section>
+      <div class="flex justify-center pt-12">
+        <img class="w-5/6" src="./images/guide/Font.png" alt="font image" />
+      </div>
+    </section>
+
+    <section class="flex gap-20 py-20">
+      <div>
+        <div>
+          <h1>Heading H1</h1>
+          <p class="text-xs">Roboto Bold Size 56px Line 110%</p>
+        </div>
+        <div>
+          <h1>Heading H2</h1>
+          <p class="text-xs">Roboto Bold Size 56px Line 110%</p>
+        </div>
+        <div>
+          <h1>Heading H3</h1>
+          <p class="text-xs">Roboto Bold Size 56px Line 110%</p>
+        </div>
+        <div>
+          <h1>Heading H4</h1>
+          <p class="text-xs">Roboto Bold Size 56px Line 110%</p>
+        </div>
+        <div>
+          <h1>Heading H5</h1>
+          <p class="text-xs">Roboto Bold Size 56px Line 110%</p>
+        </div>
+        <div>
+          <h1>Heading H6</h1>
+          <p class="text-xs">Roboto Bold Size 56px Line 110%</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="w-1/2 flex flex-col gap-4">
+          <h2 class="font-semibold">
+            Paragraph
+            <span class="text-gray-400 pl-4"
+              >Roboto Regular Size 16 px Line 150%</span
+            >
+          </h2>
+          <p class="pb-12">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation.
+          </p>
+
+          <h2 class="font-semibold">
+            Paragraph large
+            <span class="text-gray-400 pl-4"
+              >Roboto Regular Size 18 px Line 150%</span
+            >
+          </h2>
+          <p class="pb-12">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation.
+          </p>
+
+          <h2 class="font-semibold">
+            Label<span class="text-gray-400 pl-4"
+              >Roboto Bold Size 24 px Line 120%</span
+            >
+          </h2>
+          <h3 class="service-section__small-title">
+            Lorem ipsum dolor sit amet
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <div class="flex pl-20">
+      <img class="w-4/6" src="./images/guide/Colors.png" alt="" />
+    </div>
+
+    <div class="pl-20 mt-20">
+      <h2 class="font-bold text-xl">Buttons</h2>
+    </div>
+    <div class="buttons flex pl-20 mt-8 gap-8 mb-20">
+      <div class="flex flex-col gap-2">
+        <h3 class="text-xs text-gray-400">Normal</h3>
+        <button
+          class="bg-black hover:bg-blue-500 text-white text-xs hover:font-bold font-semibold rounded-lg py-2 px-4"
+        >
+          Button
+        </button>
+      </div>
+      <div class="flex flex-col gap-2">
+        <h3 class="text-xs text-gray-400">Hover</h3>
+        <button
+          class="buttons__big-hover-btn text-white text-xs hover:font-bold font-semibold rounded-lg py-2 px-4"
+        >
+          Button Hover
+        </button>
+      </div>
+      <div class="flex flex-col gap-2">
+        <h3 class="text-xs text-gray-400">Normal</h3>
+        <button
+          class="bg-white border hover:bg-blue-500 text-black text-xs hover:font-bold font-semibold rounded-lg py-2 px-4"
+        >
+          Button Hover
+        </button>
+      </div>
+      <div class="flex flex-col gap-2">
+        <h3 class="text-xs text-gray-400">hover</h3>
+        <button
+          class="bg-black hover:bg-blue-500 text-white text-xs hover:font-bold font-semibold rounded-lg py-2 px-4"
+        >
+          Button
+        </button>
+      </div>
+    </div>
   </body>
 </html>
