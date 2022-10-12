@@ -11,7 +11,8 @@
 
 ## Deployment link (if available)
 
-[Deployment Link](https://haroldmud.github.io/finsweet-project/home.html)
+[Deployment Link](https://haroldmud.github.io/finsweet-project/home.html) <br>
+<img width="836" alt="deploy" src="https://user-images.githubusercontent.com/91553966/195291119-fbb3bbe4-3fe7-4aab-b3fb-53853a9e7f0c.png">
 
 
 ## Getting Started
