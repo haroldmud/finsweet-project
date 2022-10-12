@@ -267,5 +267,131 @@
 		@apply w-1/4 flex flex-col gap-4 pl-6 border-l-2
 	}
 
+	.result {
+		@apply mt-20
+	}
+
+	.result__title-wrapper {
+		@apply flex justify-center
+	}
+
+	.result__title {
+		@apply text-4xl font-bold text-center w-5/12
+	}
 	
+	.result__cards {
+		@apply flex justify-center mt-12
+	}
+
+	.result__cards-container {
+		@apply w-4/5
+	}
+
+	.result__cards-content {
+		@apply flex justify-around
+	}
+
+	.result__card {
+		@apply flex justify-center
+	}
+
+	.result__card-item {
+		@apply border w-72 p-4 flex flex-col gap-2 rounded-xl
+	}
+
+	.result__card-description {
+		@apply text-xs text-center font-semibold
+	}
+
+	.result__profile-image {
+		@apply flex justify-center
+	}
+
+	.result__member-name {
+		@apply text-center
+	}
+
+	.result__member-role {
+		@apply mb-4 text-xs text-center
+	}
+
+	.business-section {
+		@apply pt-12 pb-20
+	}
+
+	.business-section__title-wrapp {
+		@apply flex justify-center
+	}
+
+	.business-section__title {
+		@apply text-4xl font-bold text-center w-5/12 mt-12
+	}
+
+	.business-section__paragraph {
+		@apply flex justify-center
+	}
+
+	.business-section__text {
+		@apply text-center w-5/12 mt-2
+	}
+
+	.business-section__btn-wrapper {
+		@apply flex justify-center mt-8
+	}
+
+	.business-section__btn {
+		@apply bg-black hover:bg-blue-500 text-white text-xs font-semibold rounded-lg py-2 px-4
+	}
+
+	.footer {
+		@apply relative pb-12 flex justify-center pt-8
+	}
+
+	.footer__container {
+		@apply w-10/12 md:flex md:flex-row justify-around pb-12 border-b border-gray-500 md:pt-4 pt-8
+	}
+
+	.footer__list {
+		@apply text-xs leading-6 text-gray-500
+	}
+
+	.footer__list-title {
+		@apply font-bold text-white
+	}
+
+	.footer__form-container {
+		@apply flex flex-col gap-4
+	}
+
+	.footer__form-logo {
+		@apply text-2xl font-semibold
+	}
+
+	.footer__form-wrapp {
+		@apply flex justify-center bg-transparent
+	}
+
+	.footer__form {
+		@apply rounded-lg py-1
+	}
+
+	.footer__input {
+		@apply pl-4 pt-1 pb-2 text-xs w-72 bg-transparent
+	}
+
+	.footer__form-btn {
+		@apply bg-white hover:bg-blue-500 text-white text-xs font-semibold rounded-lg py-2 px-8
+	}
+
+	.footer__social {
+		@apply absolute flex text-gray-400
+	}
+
+	.footer__copyright {
+		@apply text-xs pl-4 pr-8
+	}
+
+	.footer__social-img {
+		@apply pr-4
+	}
 }

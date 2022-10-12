@@ -28,16 +28,16 @@
     background-position-y: -5rem;
 }
 
-.footer-section {
+.footer {
     background-color: #1D2130;
     color: white;
 }
 
-.footer-section__form {
+.footer__form {
     background-color: rgba(255, 255, 255, 0.048);
 }
 
-.footer-section__social {
+.footer__social {
     bottom: 37px;
     background-color: #1D2130;
 }
