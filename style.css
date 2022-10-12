@@ -1,3 +1,271 @@
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
+@tailwind components;
+
+@layer components {
+	.intro-section__header {
+		@apply flex justify-center pt-6;
+	}
+
+	.intro-section__navbar {
+		@apply w-5/6 flex justify-between;
+	}
+
+	.intro-section__logo {
+		@apply font-bold text-2xl
+	}
+
+	.intro-section__links {
+		@apply w-fit flex gap-4
+	}
+
+	.intro-section__links-wrapper {
+		@apply mt-1 flex gap-4
+	}
+
+	.intro-section__link {
+		@apply hover:underline hover:underline-offset-2
+	}
+
+	.intro-section__link--margin-right {
+		@apply mr-4
+	}
+
+	.intro-section__black-btn {
+		@apply bg-black hover:bg-blue-500 text-white text-xs hover:font-bold font-semibold rounded-lg py-2 px-4
+	}
+
+	.intro-section__main-section {
+		@apply mt-12
+	}
+
+	.intro-section__main-title-wrapper {
+		@apply flex justify-center
+	}
+
+	.intro-section__main-title {
+		@apply text-4xl font-bold text-center w-5/12
+	}
+
+	.intro-section__phrase-wrapper {
+		@apply flex justify-center
+	}
+
+	.intro-section__phrase {
+		@apply w-1/2 text-center mt-6
+	}
+
+	.intro-section__form-wrapper {
+		@apply flex justify-center
+	}
+
+	.intro-section__form {
+		@apply border mt-12 bg-white rounded-lg py-1
+	}
+
+	.intro-section__input {
+		@apply pl-4 pt-1 pb-2 text-xs w-72
+	}
+
+	.intro-section__image-wrapper {
+		@apply flex justify-center mt-12
+	}
+
+	.service-section {
+		@apply mt-12
+	}
+
+	.service-section__gradient-title-wrapper {
+		@apply flex justify-center
+	}
+
+	.service-section__gradient-title {
+		@apply text-center
+	}
+
+	.service-section__small-title {
+		@apply text-center
+	}
+
+	.service-section__title-wrapper {
+		@apply flex justify-center
+	}
+
+	.service-section__title-wrapper {
+		@apply flex justify-center
+	}
+
+	.service-section__title-wrapper {
+		@apply flex justify-center
+	}
+
+	.section-service__title {
+		@apply text-4xl font-bold text-center w-5/12
+	}
+
+	.service-section__service-card-wrapper {
+		@apply flex justify-center mt-12 mb-4
+	}
+
+	.service-section__service-card-container {
+		@apply py-12 rounded-2xl bg-blue-50 w-5/6 border flex justify-between
+	}
+
+	.service-section__service-card-item {
+		@apply w-1/3 ml-8 flex flex-col gap-4
+	}
+
+	.service-section__card-title {
+		@apply font-semibold
+	}
+
+	.service-section__card-paragaph {
+		@apply text-xs
+	}
+
+	.work {
+		@apply flex justify-center
+	}
+
+	.work__container {
+		@apply w-5/6 flex
+	}
+
+	.work__left-part {
+		@apply mt-20 w-fit flex flex-col gap-2
+	}
+
+	.work__title {
+		@apply text-4xl font-bold
+	}
+
+	.work__right-part {
+		@apply ml-28 mt-20 flex flex-col gap-4
+	}
+
+	.work__description {
+		@apply flex mt-8
+	}
+
+	.work__image-wrapper {
+		@apply mt-1
+	}
+
+	.work__paragraph-item {
+		@apply text-xs font-semibold ml-4
+	}
+
+	.work__scnd-description {
+		@apply flex
+	}
+
+	.work__description-paragraph {
+		@apply text-xs font-semibold ml-4
+	}
+
+	.sales-section {
+		@apply flex mt-20 justify-center
+	}
+
+	.sales-section__container {
+		@apply py-20 rounded-xl w-5/6 flex justify-center
+	}
+
+	.sales-section__left-part {
+		@apply pl-12 w-4/6 pr-20 flex flex-col gap-2
+	}
+
+	.sales-section__title {
+		@apply text-4xl mt-20 font-bold
+	}
+
+	.sales-section__image-wrapper {
+		@apply pr-20
+	}
+
+	.social-icons {
+		@apply flex justify-center mt-8
+	}
+
+	.social-icons__image {
+		@apply w-4/6
+	}
+
+	.marketing {
+		@apply flex justify-center
+	}
+
+	.marketing__container {
+		@apply w-5/6 flex justify-center
+	}
+
+	.marketing__left-part {
+		@apply mt-20 w-1/2 flex flex-col gap-2
+	}
+
+	.marketing__title {
+		@apply text-4xl font-bold
+	}
+
+	.marketing__right-part {
+		@apply ml-28 mt-20 flex flex-col gap-4
+	}
+
+	.marketing__first-description {
+		@apply flex mt-8
+	}
+
+	.marketing__icon {
+		@apply mt-1 border
+	}
+
+	.marketing__paragraph {
+		@apply text-xs font-semibold ml-4
+	}
+
+	.marketing__second-description {
+		@apply flex
+	}	
+
+	.marketing__paragraph-title {
+		@apply font-semibold
+	}
+
+	.features {
+		@apply mt-20
+	}
+
+	.features__title-wrapper {
+		@apply flex justify-center
+	}
+
+	.features__title {
+		@apply text-4xl font-bold text-center w-5/12
+	}
+
+	.features__cards-wrapper {
+		@apply flex justify-center mt-12 mb-4
+	}
+
+	.features__cards {
+		@apply py-12 rounded-2xl bg-red-50 w-5/6 flex justify-around
+	}
+
+	.features__first-card {
+		@apply w-1/4 ml-8 flex flex-col pl-6 gap-4
+	}
+
+	.features__card-title {
+		@apply font-bold text-2xl
+	}
+
+	.features__card-description {
+		@apply text-xs
+	}
+
+	.features__second-card {
+		@apply w-1/4 flex flex-col gap-4 pl-6 border-l-2
+	}
+
+	
+}
