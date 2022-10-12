@@ -735,6 +735,10 @@ video {
   gap: 1rem;
 }
 
+.service-section__card-image {
+  width: 32px;
+}
+
 .service-section__card-title {
   font-weight: 600;
 }
@@ -794,7 +798,7 @@ video {
   font-weight: 600;
 }
 
-.work__scnd-description {
+.work__second-description {
   display: flex;
 }
 
@@ -803,6 +807,10 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 600;
+}
+
+.word__image-wrapp {
+  margin-top: 0.25rem;
 }
 
 .sales-section {
@@ -1182,8 +1190,9 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 600;
-  --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(29 33 48 / var(--tw-text-opacity));
 }
 
 .footer__form-btn:hover {
