@@ -72,6 +72,10 @@
 		@apply flex justify-center mt-12
 	}
 
+	.intro-section__image {
+		@apply w-[724px]
+	}
+
 	.service-section {
 		@apply mt-12
 	}
@@ -100,7 +104,7 @@
 		@apply flex justify-center
 	}
 
-	.section-service__title {
+	.service-section__title {
 		@apply text-4xl font-bold text-center w-5/12
 	}
 
@@ -168,8 +172,12 @@
 		@apply text-xs font-semibold ml-4
 	}
 
-	.word__image-wrapp {
+	.work__image-wrapp {
 		@apply mt-1
+	}
+
+	.work__image {
+		@apply w-[42px]
 	}
 
 	.word__image-item {
@@ -194,6 +202,10 @@
 
 	.sales-section__image-wrapper {
 		@apply pr-20
+	}
+
+	.sales-section__image {
+		@apply w-[420px]
 	}
 
 	.social-icons {
@@ -228,8 +240,12 @@
 		@apply flex mt-8
 	}
 
-	.marketing__icon {
+	.marketing__icon-wrapp {
 		@apply mt-1 border
+	}
+
+	.marketing__icon {
+		@apply w-[42px]
 	}
 
 	.marketing__paragraph {
@@ -280,6 +296,10 @@
 		@apply w-1/4 flex flex-col gap-4 pl-6 border-l-2
 	}
 
+	.features__image {
+		@apply w-[42px]
+	}
+
 	.result {
 		@apply mt-20
 	}
@@ -318,6 +338,10 @@
 
 	.result__profile-image {
 		@apply flex justify-center
+	}
+
+	.result__image {
+		@apply w-[42px]
 	}
 
 	.result__member-name {
