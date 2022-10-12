@@ -7,7 +7,6 @@
 		@apply flex justify-center py-6;
 	}
 
-
 	.intro-section__navbar {
 		@apply w-5/6 flex flex-row justify-between;
 	}
@@ -434,12 +433,126 @@
 
 	/* --------------------------------------------- PRODUCT -------------------------------------------------------- */
 	.intro-section__navbar--margin {
-		@apply border border-red-500;
+		@apply mt-[-20px] mb-[-20px];
 	}
-	
 
-	.analyse {
-		@apply border border-red-500
-	} 
+	.analyse__container {
+		@apply  flex justify-center
+	}
 
+	.analyse__servered-parts {
+		@apply w-5/6 flex justify-center gap-8
+	}
+
+	.analyse__left-part {
+		@apply mt-20 w-1/2 flex flex-col gap-4 pt-8
+	}
+
+	.analyse__title {
+		@apply text-4xl font-bold
+	}
+
+	.analyse__btn-wrapp {
+		@apply flex gap-4
+	}
+
+	.analyse__left-btn {
+		@apply bg-black hover:bg-blue-500 text-white text-xs hover:font-bold font-semibold rounded-lg py-2 px-4
+	}
+
+	.analyse__right-btn {
+		@apply bg-white hover:bg-blue-500 text-black border text-xs hover:font-bold font-semibold rounded-lg py-2 px-4
+	}
+
+	.analyse__image-wrapp {
+		@apply pt-20
+	}
+
+	.analyse__image {
+		@apply w-[500px]
+	}
+
+	.analyse__partnership {
+		@apply flex justify-center mt-20 pb-20
+	}
+
+	.analyse__partner-image {
+		@apply w-5/6
+	}
+
+	.company__title-wrapp {
+		@apply flex justify-center pt-20
+	}
+
+	.company__title {
+		@apply text-4xl font-bold w-1/2 text-center mb-12
+	}
+
+	.company__services {
+		@apply grid grid-cols-3 w-11/12 gap-2 bg-white rounded-tr-3xl pl-14
+	}
+
+	.company__service-card {
+		@apply w-72 p-4 flex flex-col gap-4
+	}
+
+	.company__card-image {
+		@apply w-[32px]
+	}
+
+	.company__card-title {
+		@apply font-semibold
+	}
+
+	.company__card-description {
+		@apply text-xs
+	}
+
+	.feedback {
+		@apply flex flex-col gap-12
+	}
+
+	.feedback__first-part {
+		@apply flex justify-start
+	}
+
+	.feedback__first-part-content {
+		@apply w-5/6 flex justify-center ml-14
+	}
+
+	.feedback__first-left-part {
+		@apply mt-32 w-1/2 flex flex-col gap-2
+	}
+
+	.feedback__first-part-title {
+		@apply text-4xl font-bold pr-20
+	}
+
+	.feedback__right-part {
+		@apply ml-20 mt-20 flex flex-col gap-4 pl-12
+	}
+
+	.feedback__right-part {
+		@apply ml-20 mt-20 flex flex-col gap-4 pl-12
+	}
+
+	.feedback__right-part-image {
+		@apply w-[350px]
+	}
+
+	.feedback__second-part-content {
+		@apply w-5/6 flex justify-between
+	}
+
+	.feedback__first-left-part {
+		@apply ml-20 mt-20 flex flex-col gap-4
+	}
+
+	.feedback__second-part {
+		@apply flex justify-start ml-32
+	}
+
+	.feedback__second-right-part {
+		@apply mt-32 w-1/2 flex flex-col gap-2
+	}
 }
