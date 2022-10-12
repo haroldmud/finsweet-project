@@ -9,7 +9,7 @@
 - Frameworks
 - Technologies used
 
-## Deplotyment link (if available)
+## Deployment link (if available)
 
 [Deployment Link](https://haroldmud.github.io/finsweet-project/)
 
