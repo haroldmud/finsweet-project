@@ -4,15 +4,16 @@
 
 @layer components {
 	.intro-section__header {
-		@apply flex justify-center pt-6;
+		@apply flex justify-center py-6;
 	}
 
+
 	.intro-section__navbar {
-		@apply w-5/6 flex justify-between;
+		@apply w-5/6 flex flex-row justify-between;
 	}
 
 	.intro-section__logo {
-		@apply font-bold text-2xl
+		@apply font-bold text-2xl;
 	}
 
 	.intro-section__links {
@@ -20,7 +21,7 @@
 	}
 
 	.intro-section__links-wrapper {
-		@apply mt-1 flex gap-4
+		@apply mt-1 flex gap-4 
 	}
 
 	.intro-section__link {
@@ -394,4 +395,15 @@
 	.footer__social-img {
 		@apply pr-4
 	}
+
+	/* --------------------------------------------- PRODUCT -------------------------------------------------------- */
+	.intro-section__navbar--margin {
+		@apply border border-red-500;
+	}
+	
+
+	/* .analyse {
+		@apply border border-red-500
+	}  */
+
 }

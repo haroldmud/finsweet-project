@@ -555,31 +555,21 @@ video {
   margin-top: 0.25rem;
 }
 
-.flex {
-  display: flex;
-}
-
 .grow {
   flex-grow: 1;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .intro-section__header {
   display: flex;
   justify-content: center;
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .intro-section__navbar {
   display: flex;
   width: 83.333333%;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -1218,3 +1208,9 @@ video {
 .footer__social-img {
   padding-right: 1rem;
 }
+
+/* --------------------------------------------- PRODUCT -------------------------------------------------------- */
+
+/* .analyse {
+		@apply border border-red-500
+	}  */

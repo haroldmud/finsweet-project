@@ -4,55 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/home.css" />
-    <link rel="stylesheet" href="./style/product.css" />
     <link
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="./style/product.css" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Finsweet | Production</title>
   </head>
   <body>
-    <header class="flex justify-center pt-2">
-      <div class="w-5/6 flex justify-between">
-        <h2 class="font-bold text-2xl">{finsweet</h2>
-        <nav class="w-fit flex gap-4">
-          <div class="mt-1 flex gap-4">
-            <a class="hover:underline hover:underline-offset-2" href="home.html"
-              >Home</a
-            >
-            <a
-              class="hover:underline hover:underline-offset-2"
-              href="product.htm"
-              >Product</a
-            >
-            <a
-              class="hover:underline hover:underline-offset-2"
-              href="pricing.htm"
-              >Pricing</a
-            >
-            <a
-              class="hover:underline hover:underline-offset-2"
-              href="aboutUs.htm"
-              >About Us</a
-            >
-            <a class="hover:underline hover:underline-offset-2" href="blog.htm"
-              >Blog</a
-            >
-            <a
-              class="hover:underline hover:underline-offset-2 mr-4"
-              href="contact.htm"
-              >Contact</a
-            >
-          </div>
-          <button
-            class="bg-black hover:bg-blue-500 text-white text-xs hover:font-bold font-semibold rounded-lg py-2 px-4"
-          >
-            Free trial
-          </button>
-        </nav>
-      </div>
-    </header>
+    <section class="intro-section">
+      <header class="intro-section__header">
+        <div class="intro-section__navbar intro-section__navbar--margin">
+          <h2 class="intro-section__logo">{finsweet</h2>
+          <nav class="intro-section__links">
+            <div class="intro-section__links-wrapper mt-1 flex gap-4">
+              <a class="intro-section__link" href="home.html">Home</a>
+              <a class="intro-section__link" href="product.htm">Product</a>
+              <a class="intro-section__link" href="pricing.htm">Pricing</a>
+              <a class="intro-section__link" href="aboutUs.htm">About Us</a>
+              <a class="intro-section__link" href="blog.htm">Blog</a>
+              <a
+                class="intro-section__link intro-section__link--margin-right"
+                href="#"
+                >Contact</a
+              >
+            </div>
+            <button class="intro-section__black-btn">Free trial</button>
+          </nav>
+        </div>
+      </header>
+    </section>
     <section class="analyse">
       <section class="flex justify-center">
         <div class="w-5/6 flex justify-center gap-8">
