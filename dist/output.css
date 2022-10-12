@@ -551,10 +551,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .grow {
   flex-grow: 1;
 }
@@ -682,6 +678,10 @@ video {
   justify-content: center;
 }
 
+.intro-section__image {
+  width: 724px;
+}
+
 .service-section {
   margin-top: 3rem;
 }
@@ -698,14 +698,6 @@ video {
 .service-section__title-wrapper {
   display: flex;
   justify-content: center;
-}
-
-.section-service__title {
-  width: 41.666667%;
-  text-align: center;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  font-weight: 700;
 }
 
 .service-section__service-card-wrapper {
@@ -809,8 +801,12 @@ video {
   font-weight: 600;
 }
 
-.word__image-wrapp {
+.work__image-wrapp {
   margin-top: 0.25rem;
+}
+
+.work__image {
+  width: 42px;
 }
 
 .sales-section {
@@ -846,6 +842,10 @@ video {
 
 .sales-section__image-wrapper {
   padding-right: 5rem;
+}
+
+.sales-section__image {
+  width: 420px;
 }
 
 .social-icons {
@@ -896,9 +896,13 @@ video {
   display: flex;
 }
 
-.marketing__icon {
+.marketing__icon-wrapp {
   margin-top: 0.25rem;
   border-width: 1px;
+}
+
+.marketing__icon {
+  width: 42px;
 }
 
 .marketing__paragraph {
@@ -980,6 +984,10 @@ video {
   padding-left: 1.5rem;
 }
 
+.features__image {
+  width: 42px;
+}
+
 .result {
   margin-top: 5rem;
 }
@@ -1037,6 +1045,10 @@ video {
 .result__profile-image {
   display: flex;
   justify-content: center;
+}
+
+.result__image {
+  width: 42px;
 }
 
 .result__member-name {
