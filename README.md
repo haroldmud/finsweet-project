@@ -9,9 +9,9 @@
 - Frameworks
 - Technologies used
 
-## Live Demo (if available)
+## Deplotyment link (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Deployment Link](https://haroldmud.github.io/finsweet-project/)
 
 
 ## Getting Started
