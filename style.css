@@ -279,7 +279,7 @@
 		@apply py-12 rounded-2xl bg-red-50 w-5/6 flex justify-around
 	}
 
-	.features__first-card {
+	.features__primary-card {
 		@apply w-1/4 ml-8 flex flex-col pl-6 gap-4
 	}
 
@@ -291,7 +291,7 @@
 		@apply text-xs
 	}
 
-	.features__second-card {
+	.features__secondary-card {
 		@apply w-1/4 flex flex-col gap-4 pl-6 border-l-2
 	}
 
@@ -512,19 +512,19 @@
 		@apply flex flex-col gap-12
 	}
 
-	.feedback__first-part {
+	.feedback__primary-part {
 		@apply flex justify-start
 	}
 
-	.feedback__first-part-content {
+	.feedback__primary-part-content {
 		@apply w-5/6 flex justify-center ml-14
 	}
 
-	.feedback__first-left-part {
+	.feedback__primary-twisted-part {
 		@apply mt-32 w-1/2 flex flex-col gap-2
 	}
 
-	.feedback__first-part-title {
+	.feedback__primary-part-title {
 		@apply text-4xl font-bold pr-20
 	}
 
@@ -544,7 +544,7 @@
 		@apply w-5/6 flex justify-between
 	}
 
-	.feedback__first-left-part {
+	.feedback__primary-twisted-part {
 		@apply ml-20 mt-20 flex flex-col gap-4
 	}
 
